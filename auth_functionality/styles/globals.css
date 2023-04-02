@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply h-full bg-zinc-900 overflow-x-hidden;
+}
+
+html,
+#__next{
+    @apply h-full;
+}
